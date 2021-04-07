@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "4.0.0",
+  "id": "ad42976d-d183-4c2f-a8e1-5cbbe1412992",
+  "packageName": "com.microsoft.teams.companycommunicator",
+  "developer": {
+    "name": "TCS",
+    "websiteUrl": "https://ghcmpctr.azurewebsites.us",
+    "privacyUrl": "https://ghcmpctr.azurewebsites.us",
+    "termsOfUseUrl": "https://ghcmpctr.azurewebsites.us"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Company Communicator",
+    "full": "Company Communicator"
+  },
+  "description": {
+    "short": "Broadcast messages to multiple teams and people in one go",
+    "full": "Broadcasts messages to multiple teams and individuals through channel posts and chat messages"
+  },
+  "accentColor": "#64A2CC",
+  "bots": [{
+    "botId": "a9d7f545-120c-407e-b772-4220f0743bca",
+    "scopes": [
+      "personal",
+      "team"
+    ],
+    "supportsFiles": false,
+    "isNotificationOnly": true
+  }],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "ghcmpctr.azurewebsites.us"
+  ]
+}
